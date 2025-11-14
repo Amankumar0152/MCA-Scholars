@@ -1,9 +1,16 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
-    height: 200px;
-    width: 300px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: aqua;
+    background-color: lightslategray;
+    color: floralwhite;
 }
